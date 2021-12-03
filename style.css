@@ -1,31 +1,50 @@
-body{
-   background-color: #f1f1f1ff;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   text-align: center;
-}
+
 header{
-    padding: 15px;
-    box-shadow: 0 0 ;
-    
+    height: 90px;
+    width: 100%;
 }
-.logo{
+
+header img{
     float: left;
+    width: 20%;
 }
-header li{
-    display: inline ;
-    padding: 45px;
-    padding: left 42px;;
-    float: left;
+
+header ul {
+    display: flex;
+    list-style: none;
+    float: right;
+    width: 70%;
 }
-header li a{
-    color: black;
+
+header ul li {
+    margin: 20px;
+}
+
+header ul li a {
     text-decoration: none;
-    padding: 13px;
-    transition: .3s ease;
+    color: black;
+    font-weight: 900;
 }
-header li a:hover{
-    color: blue;
+header ul li a:hover{
+    
+    text-decoration-line: underline;
+}
+
+.list{
+    margin: 0;
+    margin-top: 40px;
+}
+
+.list ol{
+    display: flex;
+    list-style: none;
+}
+
+.list ol li{
+    margin-right: 20px;
+}
+
+.list ol span{
+    margin: 0 20px;
+    font-weight: 900;
 }
