@@ -39,6 +39,13 @@ header ul li a:hover{
     display: flex;
     list-style: none;
 }
+.breadcrumbs li+li:before{
+   
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+      }
+}
 
 .list_ol li{
     margin-right: 20px;
