@@ -35,16 +35,137 @@ header ul li a:hover{
     margin-top: 40px;
 }
 
-.list ol{
+.list_ol ol{
     display: flex;
     list-style: none;
 }
 
-.list ol li{
+.list_ol li{
     margin-right: 20px;
 }
-
-.list ol span{
+.list_ol ol   li a:hover{
+    text-decoration: underline;
+}
+.list_ol ol li a {
+    text-decoration-line: none;
+    color: black;
+}
+.list_ol span{
     margin: 0 20px;
     font-weight: 900;
+}
+section{
+    display: flex;
+}
+article{
+    border: 1px solid black;
+    margin-left: 18px;
+
+}
+article span{
+    color:rgb(177,171,171);
+    margin-left: 6px;
+    font-size: 15px;
+}
+article img{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+}
+article p{
+    font-size: 16px;
+}
+article p span{
+    color: rgb(25,26,25);
+    font-weight: bold;
+    text-decoration:underline;
+}
+article .green {
+    color: #2ecc71;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+article{
+    border: 1px solid black;
+    margin-left: 18px;
+
+}
+article span{
+    color:rgb(177,171,171);
+    margin-left: 6px;
+    font-size: 15px;
+}
+article img{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+}
+article p{
+    font-size: 16px;
+}
+article p span{
+    color: rgb(25,26,25);
+    font-weight: bold;
+    text-decoration:underline;
+}
+article .green {
+    color: #2ecc71;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+article{
+    border: 1px solid black;
+    margin-left: 18px;
+
+}
+article span{
+    color:rgb(177,171,171);
+    margin-left: 6px;
+    font-size: 15px;
+}
+article img{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+}
+article p{
+    font-size: 16px;
+}
+article p span{
+    color: rgb(25,26,25);
+    font-weight: bold;
+    text-decoration:underline;
+}
+article .green {
+    color: #2ecc71;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+article{
+    border: 1px solid black;
+    margin-left: 18px;
+
+}
+article span{
+    color:rgb(177,171,171);
+    margin-left: 6px;
+    font-size: 15px;
+}
+article img{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+}
+article p{
+    font-size: 16px;
+}
+article p span{
+    color: rgb(25,26,25);
+    font-weight: bold;
+    text-decoration:underline;
+}
+article .green {
+    color: #2ecc71;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
